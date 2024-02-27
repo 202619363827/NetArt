@@ -1,0 +1,754 @@
+
+.container{
+    background: linear-gradient(to bottom, rgb(241, 241, 239), rgba(214, 205, 82, 0.5));
+    width: 100%;
+    height:auto;
+    font-size: 18px;
+    
+
+   
+}
+
+.logo {
+    width: 20%; 
+    height: 20%; 
+    
+    justify-content: center;
+    margin-left: 60rem;
+    
+    }
+    .text{
+        margin-left: 60px;
+        margin-top: 20px;
+    
+        
+        
+    }
+  
+    .heading{
+        margin-left: 35%;
+    }
+    .color{
+        height:50%px;
+        width: 50%;
+        box-shadow: black;
+    
+   
+    margin-left: 100%;
+    }
+    .colorimage{
+        height:60%;
+        width:30%;
+    
+        position: absolute;
+        
+        left: 100px;
+        margin-top: -800px;
+      
+       
+        
+
+      
+    
+    }
+
+
+    .trophyimage{
+        height:40%;
+        width:20%;
+        background-color: aqua;
+    }
+   
+    .para{
+        margin-left: 50%;
+    
+        
+    }
+    .machine{
+        width:70%;
+        justify-content: center;
+        margin-left: 15%;
+    }
+    .redline {
+        border: 3px; 
+        height: 3px; 
+        background-color: red; 
+        width:95%;
+    }
+    .some{
+        margin-left:32% ;
+    }
+    .iconContainer {
+        background-color: red;
+    }
+  
+    
+     .iconContainer {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        
+        justify-content: space-between;
+        color: white;
+    }
+    
+    .iconItem {
+        display: flex;
+        align-items: center;
+        margin-right: 80px;
+    }
+    .icon{
+        margin-bottom: 20px;
+        
+        
+    }
+    
+    
+   
+    .big{
+        margin-left: 40%;
+       
+    }
+
+
+     .segmentText {
+        position: relative;
+        margin-left: 16%;
+    }
+     
+  
+    .horizontalLine {
+        margin: 0 5px; 
+        border-bottom: 1px solid rgb(114, 17, 17); 
+        color: red;
+    }
+    .install{
+        margin-left: 10%;
+    }
+
+    
+
+
+
+
+/* MOBILE VIEW */
+
+
+        @media screen and (max-width: 479px) {
+          
+                .container{
+                    background: linear-gradient(to bottom, rgb(241, 241, 239), rgba(214, 205, 82, 0.5));
+                    width: 100%;
+                    height:auto;
+                    font-size: 16px;
+                   
+                }
+            .logo,
+            .text,
+            .color,
+            .para,
+            .machine {
+                margin-left: 10px;
+                
+            }
+
+            .color{
+                height:180px;
+                width: 95%;
+                box-shadow: black;
+
+            }
+            .logo{
+                width: 40%; 
+                height: 30%; 
+                
+                
+
+            }
+            .text{
+                margin-left: 38px;
+               
+
+            }
+            .machine{
+                margin-top: 20px;
+                margin-bottom: 20px;
+               
+                    width:70%;
+                    justify-content: center;
+                    margin-left: 15%;
+            
+
+            }
+            .some{
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-left:15px ;
+
+            }
+            .install{
+                margin-left: 10px;
+            }
+           
+        
+            .heading {
+                margin-left: 10%; 
+            }
+        
+            .iconItem {
+                margin-right: 20px; 
+            }
+        
+            .segmentText {
+                margin-left: 5%; 
+            }
+            .colorimage {
+                
+                margin-bottom: 30%;
+                height: 30%; 
+                width: 30%; 
+                left: 40px; 
+                position: absolute;
+              
+                
+              }
+          
+           
+            .iconContainer {
+                flex-direction: column;
+                align-items: center;
+                height: auto;
+              }
+            
+              .iconItem {
+                margin-bottom: 10px; 
+                text-align: center;
+              }
+              .icon{
+                margin-top: 15px;
+              }
+              .redline{
+                margin-top: 25px;
+                margin-bottom: 25px;
+              }
+
+        }
+
+
+
+        @media screen and (min-width: 480px) and (max-width: 769px) {
+            .container {
+                background: linear-gradient(to bottom, rgb(241, 241, 239), rgba(214, 205, 82, 0.5));
+                width: 100%;
+                height: auto;
+                font-size: 18px;
+            }
+            .logo,
+            .text,
+            .color,
+            .para,
+            .machine {
+                margin-left: 10px;
+            }
+            .color {
+                height: 90%;
+                width: 95%;
+                box-shadow: black;
+                margin-top: 20PX;
+                margin-bottom: 20PX;
+            }
+            .logo {
+                width: 40%;
+                height: 30%;
+            }
+            .text {
+                margin-left: 38px;
+            }
+            .machine {
+                margin-top: 20px;
+                margin-bottom: 20px;
+                width: 70%;
+                justify-content: center;
+                margin-left: 15%;
+            }
+            .some {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-left: 15px;
+            }
+            .install {
+                margin-left: 10px;
+            }
+            .heading {
+                margin-left: 10%; 
+            }
+            .iconItem {
+                margin-right: 20px; 
+            }
+            .segmentText {
+                margin-left: 5%;
+            }
+            .colorimage {
+                
+
+             
+                margin-top: -1000px;
+                height: 28%;
+                width: 25%;
+                left: 60px;
+                position: absolute;
+              
+              
+            }
+            .iconContainer {
+                flex-direction: column;
+                align-items: center;
+                height: auto;
+            }
+            .iconItem {
+                margin-bottom: 10px;
+                text-align: center;
+            }
+            .icon {
+                margin-top: 15px;
+            }
+            .redline {
+                margin-top: 25px;
+                margin-bottom: 25px;
+            }
+            .big{
+                margin-right: 15px;
+            }
+        }
+        
+
+
+/* TABLET VIEW */
+
+        @media screen and (min-width: 770px) and (max-width: 899px) {
+            .container {
+                background: linear-gradient(to bottom, rgb(241, 241, 239), rgba(214, 205, 82, 0.5));
+                width: 100%;
+                height: auto;
+                font-size: 18px;
+            }
+            .logo,
+            .text,
+            .color,
+            .para,
+            .machine {
+                margin-left: 10px;
+            }
+            .color {
+                margin-top: 60px;
+                height: 90%;
+                width: 95%;
+                box-shadow: black;
+            }
+            .logo {
+                width: 40%;
+                height: 30%;
+            }
+            .text {
+                margin-left: 38px;
+            }
+            .machine {
+                margin-top: 20px;
+                margin-bottom: 20px;
+                width: 70%;
+                justify-content: center;
+                margin-left: 15%;
+            }
+            .some {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-left: 40px;
+                
+            }
+            .install {
+                margin-left: 10px;
+            }
+            .heading {
+                margin-left: 10%; 
+            }
+            .iconItem {
+                margin-right: 20px; 
+            }
+            .segmentText {
+                margin-left: 5%; 
+            }
+            .colorimage {
+                margin-top: -1000px;
+             
+                height: 35%;
+                width: 30%;
+                left: 60px;
+                position: absolute;
+            }
+                
+            .iconContainer {
+                flex-direction: column;
+                align-items: center;
+                height: auto;
+            }
+            .iconItem {
+                margin-bottom: 10px;
+                text-align: center;
+            }
+            .icon {
+                margin-top: 15px;
+            }
+            .redline {
+                margin-top: 25px;
+                margin-bottom: 25px;
+            }
+            .big{
+                margin-right: 15px;
+            }
+        }
+    
+        
+
+
+/* LAPTOP VIEW */
+
+  @media screen and (min-width: 900px) and (max-width: 1024px) {
+    .container {
+        background: linear-gradient(to bottom, rgb(241, 241, 239), rgba(214, 205, 82, 0.5));
+        width: 100%;
+        height: auto;
+        font-size: 18px;
+    }
+
+     .logo,
+    .text,
+    .color,
+    .para,
+    .machine {
+        margin-left: 10px;
+    } 
+
+    .color {
+        margin-top: 60px;
+        height: 90%;
+        width: 95%;
+        box-shadow: black;
+        margin-left: 30px;
+    }
+
+    .logo {
+        width: 40%;
+        height: 30%;
+        margin-left: 100px;
+    }
+
+    .text {
+        margin-left: 38px;
+    }
+
+    .machine {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 70%;
+        justify-content: center;
+        margin-left: 15%;
+    }
+
+    .some {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 40px;
+    }
+
+    .install {
+        margin-left: 10px;
+    }
+
+    .heading {
+        margin-left: 10%; 
+    }
+
+    .iconItem {
+        margin-right: 20px; 
+    }
+
+    .segmentText {
+        margin-left: 5%; 
+    }
+
+    .colorimage {
+        margin-top: -990px;
+       
+        height: 29%;
+        width: 20%;
+        left: 90px;
+        position: absolute;
+    }
+
+    .iconContainer {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .iconItem {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .icon {
+        margin-top: 15px;
+    }
+
+    .redline {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .big {
+        margin-right: 15px;
+    }
+}
+        
+
+        
+       
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+        @media screen and (min-width: 1025px) and (max-width: 1440px) {
+            .container {
+                background: linear-gradient(to bottom, rgb(241, 241, 239), rgba(214, 205, 82, 0.5));
+                width: 100%;
+                height: auto;
+                font-size: 19px;
+            }
+        
+            .logo {
+                width: 30%;
+                height: 30%;
+                justify-content: center;
+                margin-left: 39%; 
+            }
+        
+            .text {
+                margin-left: 39%; 
+            }
+        
+            .heading {
+                margin-left: 28%; 
+            }
+        
+            .color {
+                height: 45%px;
+                width: 46%;
+                box-shadow: black;
+                margin-left: 40%; 
+            }
+        
+            .colorimage {
+                height: 65%;
+                width: 28%;
+                
+                left: 90px;
+                margin-bottom: 90px;
+                
+            }
+        
+            .para {
+                margin-left: 40%; 
+            }
+        
+            .machine {
+                width: 70%;
+                justify-content: center;
+                margin-left: 15%;
+            }
+        
+            .redline {
+                border: 3px;
+                height: 3px;
+                background-color: red;
+                width: 95%;
+            }
+        
+            .some {
+                margin-left: 23%;
+            }
+        
+            .iconContainer {
+                background-color: red;
+            }
+        
+            .iconContainer {
+                width: 100%;
+                height: 100px;
+                display: flex;
+                justify-content: space-between;
+                color: white;
+            }
+        
+            .iconItem {
+                display: flex;
+                align-items: center;
+                margin-right: 80px;
+            }
+        
+            .icon {
+                margin-bottom: 20px;
+            }
+        
+            .big {
+                margin-left: 38%;
+            }
+        
+            .segmentText {
+                position: relative;
+                margin-left: 16%;
+            }
+        
+            .horizontalLine {
+                margin: 0 5px;
+                border-bottom: 1px solid rgb(223, 12, 12);
+                color: red;
+            }
+        
+            .install {
+                margin-left: 10%;
+            }
+        }
+
+
+
+
+
+
+
+
+        @media screen and (min-width: 1441px) and (max-width: 2560px) {
+            .container {
+                background: linear-gradient(to bottom, rgb(241, 241, 239), rgba(214, 205, 82, 0.5));
+                width: 100%;
+                height: auto;
+                font-size: 19px;
+            }
+        
+            .logo {
+                width: 25%;
+                height: 25%;
+                justify-content: center;
+                margin-left: 35%; 
+            }
+        
+            .text {
+                margin-left: 35%; 
+            }
+        
+            .heading {
+                margin-left: 28%;
+            }
+        
+            .color {
+                height: 50%;
+                width: 50%;
+                box-shadow: black;
+                margin-left: 35%; 
+            }
+        
+            .colorimage {
+                height: 60%;
+                width: 20%;
+               
+                left: 90px;
+                
+               
+                margin-bottom: -1000px;
+            }
+        
+            .para {
+                margin-left: 35%;
+            }
+        
+            .machine {
+                width: 70%;
+                justify-content: center;
+                margin-left: 15%;
+            }
+        
+            .redline {
+                border: 3px;
+                height: 3px;
+                background-color: red;
+                width: 95%;
+            }
+        
+            .some {
+                margin-left: 23%;
+            }
+        
+            .iconContainer {
+                background-color: red;
+            }
+        
+            .iconContainer {
+                width: 100%;
+                height: 100px;
+                display: flex;
+                justify-content: space-between;
+                color: white;
+            }
+        
+            .iconItem {
+                display: flex;
+                align-items: center;
+                margin-right: 80px;
+            }
+        
+            .icon {
+                margin-bottom: 20px;
+            }
+        
+            .big {
+                margin-left: 38%;
+            }
+        
+            .segmentText {
+                position: relative;
+                margin-left: 16%;
+            }
+        
+            .horizontalLine {
+                margin: 0 5px;
+                border-bottom: 1px solid rgb(223, 12, 12);
+                color: red;
+            }
+        
+            .install {
+                margin-left: 10%;
+            }
+        }
+     
+
+
+
+
+    
+
+
+
+
+        
+       
